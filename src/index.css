@@ -4,6 +4,7 @@
 
 :root {
   --bg: #f3f4f6;
+  color-scheme: light dark;
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -20,7 +21,7 @@ body {
 
 .todo {
   transition: opacity 0.25s ease, transform 0.25s ease, max-height 0.25s ease, margin 0.25s ease;
-  max-height: 140px;
+  max-height: 220px;
 }
 .todo.leaving {
   opacity: 0;
